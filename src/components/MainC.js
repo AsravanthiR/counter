@@ -7,8 +7,12 @@ class MainC extends Component{
       {name:"mari", age:32,title:"Developer"},
     ]
     };
+    changeNameHandler=()=>
+    {console.log("wow..");
+};
     render(){
         return (
+            <>
             <main>
                 <Box name={this.state.boxes[0].name}
                 age={this.state.boxes[0].age}
@@ -22,8 +26,11 @@ class MainC extends Component{
                 age={this.state.boxes[0].age}
                 title={this.state.boxes[0].title}/>
                 
+                
 
         </main>
+        <button onCLick={this.changeNameHandler}>Click Me</button>
+        </>
         );
     }
 }

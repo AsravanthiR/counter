@@ -29,3 +29,11 @@ main {
 footer {
   text-align: center;
 }
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px lightcoral;
+  padding: 1rem;
+}

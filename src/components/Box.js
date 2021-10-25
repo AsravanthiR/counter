@@ -3,10 +3,10 @@ const Box=(props)=> {
         <div className="box">
             <div>
             <h2>{props.name}</h2>
-<p>Title: {props.title}</p>
-<p>Age: {props.age}</p>  
+      <p>Title: {props.title}</p>
+      <p>Age: {props.age}</p>  
 </div>
-            </div>
+</div>
 
     )
 }

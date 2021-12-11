@@ -10,6 +10,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(184, 74, 156);
+  background: radial-gradient(
+    circle,
+    rgba(184, 74, 156, 0.34715821812596004) 21%,
+    rgba(184, 74, 156, 0.34715821812596004) 36%,
+    rgba(33, 69, 111, 1) 100%
+  );
 }
 
 header,
